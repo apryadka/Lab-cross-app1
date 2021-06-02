@@ -9,7 +9,8 @@ namespace App1
             InitializeComponent();
 
             //MainPage = new MainPage();
-            MainPage = new NewPage();
+            //MainPage = new NewPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

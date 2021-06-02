@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Level1Page">
+
+    <StackLayout>
+        <Label x:Name ="Label"  Text="Первый уровень" FontSize="14"></Label>
+        <Image Source="https://ichef.bbci.co.uk/news/640/cpsprodpb/14A82/production/_116301648_gettyimages-1071204136.jpg"></Image>
+        <Button FontSize="14"  Text="Выйти"  Clicked="Button1_clicked"></Button>
+    </StackLayout>
+
+</ContentPage>

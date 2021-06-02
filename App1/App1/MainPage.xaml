@@ -8,6 +8,9 @@
         <Entry x:Name ="Entry1" Placeholder="Текст"></Entry>
         <Button FontSize="14"  Text="Применить"  Clicked="Button_clicked"></Button>
         <Label x:Name ="Label1"  Text="Текст..." FontSize="14"></Label>
+        <Button FontSize="14"  Text="Играть"  Clicked="Button2_clicked"></Button>
+        <Button FontSize="14"  Text="Выйти"  Clicked="Button1_clicked"></Button>
+        
     </StackLayout>
 
 </ContentPage>

@@ -14,5 +14,13 @@ namespace App1
             Label1.Text = Entry1.Text;
 
         }
+        private async void Button2_clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Level1Page());
+        }
+        private void Button1_clicked(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }
